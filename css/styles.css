@@ -791,3 +791,12 @@ h1 {
 
   color: #ffffff;
 }
+.label-title {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 0.857;
+
+  letter-spacing: 0.01em;
+
+  color: var(--features-info-color);
+}
