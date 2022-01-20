@@ -762,3 +762,32 @@ h1 {
 
   color: #212121;
 }
+
+.form-input {
+  height: 40px;
+}
+
+.textarea,
+.form-input {
+  width: 100%;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.btn-submit {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  border: hidden;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
