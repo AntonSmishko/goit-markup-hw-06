@@ -239,14 +239,30 @@
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
             <form>
                 
-                <label class="label-title" for="">Имя</label>
-                <input type="text" class="form-input">
-                <label class="label-title" for="">Телефон</label>
-                <input type="tel" class="form-input">
-                <label class="label-title" for="">Почта</label>
-                <input type="email" class="form-input">
-                <label class="label-title" for="">Комментарий</label>
-                <input type="textarea" class="textarea">
+                 <div class="form-field">
+                <label class="label-title" for="user-name">Имя</label>
+                <input type="text" class="form-input" name="user-name" required minlength="2"
+                id="user-name">
+                </div>
+
+                <div class="form-field">
+                <label class="label-title" for="user-tel">Телефон</label>
+                <input type="tel" class="form-input" name="user-tel" title="+38 096 111 11 11" required 
+                id="user-tel">
+                </div>
+
+                <div class="form-field">
+                <label class="label-title" for="user-email">Почта</label>
+                <input type="email" class="form-input" name="user-email" title="info@example.com" required 
+                id="user-email">
+                </div>
+
+                <div class="form-field">
+                <label class="label-title" for="user-comment">Комментарий</label>
+                <textarea name="user-comment" id="user-comment" class="textarea" 
+                placeholder="Введите текст"></textarea>
+                </div>
+
                 <input type="checkbox">
 
 
