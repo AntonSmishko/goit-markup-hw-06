@@ -712,7 +712,10 @@ h1 {
   margin-bottom: 20px;
 }
 .sign-in-email {
+  outline: none;
   padding: 15px 16px;
+
+  color: #ffffff;
 
   background-color: transparent;
   height: 50px;
@@ -730,7 +733,7 @@ h1 {
   border-radius: 4px;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.875;
   border: hidden;
   letter-spacing: 0.06em;
 
